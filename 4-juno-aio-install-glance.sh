@@ -152,6 +152,7 @@ sleep 7
 echo "########## IMPORT CIRROS IMAGE TO GLANCE ##########"
 mkdir images
 cd images/
+source /root/admin-openrc.sh
 wget http://download.cirros-cloud.net/0.3.3/cirros-0.3.3-x86_64-disk.img
 glance image-create --name "cirros-0.3.3-x86_64" --disk-format qcow2 \
 --container-format bare --is-public True --progress < cirros-0.3.3-x86_64-disk.img
