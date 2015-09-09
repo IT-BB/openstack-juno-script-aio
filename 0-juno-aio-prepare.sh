@@ -20,7 +20,7 @@ iface eth0 inet static
 address $MASTER
 netmask 255.255.255.0
 gateway $GATEWAY_IP
-dns-nameservers 8.8.8.8
+dns-nameservers 202.96.209.133
 
 # DATA NETWORK
 auto eth1
