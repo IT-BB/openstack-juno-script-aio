@@ -29,7 +29,7 @@ iface br-ex inet static
 address $MASTER
 netmask 255.255.255.0
 gateway $GATEWAY_IP
-dns-nameservers 8.8.8.8
+dns-nameservers 202.96.209.133
 
 auto eth0
 iface eth0 inet manual
